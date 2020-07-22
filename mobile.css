@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  *{
+    font-size: 14px;
+  }
+  .col-md-3 img{
+    width: 14rem;
+    height: 14rem;
+    margin-bottom: 2rem;
+  }
+
+  .feture-block{
+    display: flex;
+    flex-direction: column;
+    color: #949494;
+    padding-bottom: 1rem;
+  }
+
+  .contact .row, .speakers, .feture{
+    width: 90%;
+  }
+
+  .feture-block, .col-md-3, .schedule-section .container .row{
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  *{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 922px) {
+  /* For tablet: */
+  *{
+    font-size: 18px;
+  }
+
+  .speakers .row .col-md-3 img{
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .feture-block{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #949494;
+    padding-bottom: 1rem;
+  }
+
+  .contact .row, .speakers, .feture{
+    width: 90%;
+  }
+}
+
+@media (min-width: 922px) and (max-width: 1200px) {
+  /* For notebook: */
+  .speakers .row .col-md-3 img{
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .contact .row, .speakers, .feture{
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  /* For tablet: */
+  .speakers .row .col-md-3 img{
+    width: 12rem;
+    height: 12rem;
+  }
+}
